@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Tablas - Spaning Columns and Rows</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <h1 id="titulo-principal">Tablas - Spaning Columns and Rows</h1>
+        <div>
+            <h2 id="titulo-secundario">Spaning Columns</h2>
+            <table>
+                <tr>
+                    <td></td>
+                    <th scope="col">1 pm</th>
+                    <th scope="col">2 pm</th>
+                    <th scope="col">3 pm</th>
+                    </tr>
+                    <tr>
+                        <th scope="Row">Carlos</th>
+                        <td>Java</td>
+                        <td>C#</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <th scope="Row">David</th>
+                        <td>js</td>
+                        <td colspan="2">Angular</td>
+                    </tr>
+                    <tr>
+                        <th scope="Row">Sergio</th>
+                        <td colspan="3">PHP</td>
+                    </tr>
+            </table>
+        </div>
+        <div>
+            <h2 id="titulo-secundario">Spaning Rows</h2>
+            <table>
+                <tr>
+                    <td></td>
+                    <th scope="col">IDE Recomendado</th>
+                    <th scope="col">Última versión</th>
+                    <th scope="col">Propietario</th>
+                    </tr>
+                    <tr>
+                        <th scope="Row">Java</th>
+                        <td>Netbeans</td>
+                        <td>JDK 13</td>
+                        <td>Oracle</td>
+                    </tr>
+                    <tr>
+                        <th scope="Row">C#</th>
+                        <td rowspan="2">Visual Studio</td>
+                        <td>8.0</td>
+                        <td rowspan="2">Microsoft</td>
+                    </tr>
+                    <tr>
+                        <th scope="Row">VB.Net</th>
+                        <td>16.2</th>
+                    </tr>
+            </table>
+        </div>
+        <div>
+            <h2 id="titulo-secundario">Header Borders </h2>
+            <table>
+                <tr>
+                    <td></td>
+                    <th class ="top-row" scope="col">IDE Recomendado</th>
+                    <th class ="top-row" scope="col">Última versión</th>
+                    <th class ="top-row" scope="col">Propietario</th>
+                    </tr>
+                    <tr>
+                        <th scope="Row">Java</th>
+                        <td>Netbeans</td>
+                        <td>JDK 13</td>
+                        <td>Oracle</td>
+                    </tr>
+                    <tr>
+                        <th scope="Row">C#</th>
+                        <td rowspan="2">Visual Studio</td>
+                        <td>8.0</td>
+                        <td rowspan="2">Microsoft</td>
+                    </tr>
+                    <tr>
+                        <th scope="Row">VB.Net</th>
+                        <td>16.2</th>
+                    </tr>
+            </table><br><br>
+            <table class="borders-left-right">
+                <tr>
+                    <td></td>
+                    <th scope="col">IDE Recomendado</th>
+                    <th scope="col">Última versión</th>
+                    <th scope="col">Propietario</th>
+                    </tr>
+                    <tr>
+                        <th scope="Row">Java</th>
+                        <td>Netbeans</td>
+                        <td>JDK 13</td>
+                        <td>Oracle</td>
+                    </tr>
+                    <tr>
+                        <th scope="Row">C#</th>
+                        <td rowspan="2">Visual Studio</td>
+                        <td>8.0</td>
+                        <td rowspan="2">Microsoft</td>
+                    </tr>
+                    <tr>
+                        <th scope="Row">VB.Net</th>
+                        <td>16.2</th>
+                    </tr>
+            </table>
+        </div>
+
+    </body>
+</html>
