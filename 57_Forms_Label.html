@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <title>Ejemplo de Etiquetas en Formularios</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <h1>Forms_Label</h1>
+        <form action="EnviarMensaje.php" method="post">
+            Indique cuales son sus áreas de interes:<br>
+            <label><input type="checkbox" name="Intereses"
+            value="DesarrolloWeb">Desarrollo Web</label>
+            <br>
+            <label><input type="checkbox" name="Intereses"
+            value="VideoJuegos">VideoJuegos</label>
+            <br>
+            <!--De la otra forma para que
+            todo el texto sea clickeable-->
+            <input type="checkbox" name="Intereses" id="Desarrollo"
+            value="Apps"><label for="Desarrollo">Desarrollo de Apps
+            </label>
+            <br><br>
+            <input type="image" src="images/Boton_Enviar.png" 
+            alt="Enviar" width="200" height="42">
+        </form>
+    </body>
+</html>
