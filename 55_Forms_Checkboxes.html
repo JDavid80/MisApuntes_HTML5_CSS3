@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <head>
+        <title>Ejemplo de Etiquetas en Formularios</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <h1>Checkboxes</h1>
+        <form action="EnviarMensaje.php" method="post">
+            Nombre:
+            <br>
+            <input type="text" name="Nombres"
+            size="20" maxlength="30">
+            <br><br>
+            ¿Cuál es el lenguaje de su preferencia?
+            <br>
+            <input type="radio" name="LenguajeUsuario"
+             value="Java" checked="checked">Java
+            <input type="radio" name="LenguajeUsuario"
+            value="C#">C#
+            <input type="radio" name="LenguajeUsuario"
+            value="Python">Python
+            <br><br>
+            Indique cuales son sus áreas de interes:<br>
+            <input type="checkbox" name="Intereses"
+            value="DesarrolloWeb">Desarrollo Web
+            <br>
+            <input type="checkbox" name="Intereses"
+            value="VideoJuegos">VideoJuegos
+            <br>
+            <input type="checkbox" name="Intereses"
+            value="Apps">Desarrollo de Apps
+            <br><br>
+            Comentario:
+            <br>
+            <textarea name="Mensaje" rows="4"
+            cols="30" maxlength="200"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar Comentario">
+            <br><br>
+            <input type="image" src="images/Boton_Enviar.png" 
+            alt="Enviar" width="200" height="42">
+        </form>
+    </body>
+</html>
