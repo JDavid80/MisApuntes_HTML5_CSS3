@@ -219,6 +219,31 @@ table.borders-left-right {
 tr.even-row {
     background-color: lightgray;
 }
+form {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+input[type="text"],input[type="email"],
+textarea {
+    margin-bottom: .25em;
+    padding: .25em;
+    font-size: 1em;
+}
+legend {
+    font-weight: 700;
+}
+input[type=image] {
+    font-size: 1.25em;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+input[type=submit] {
+    font-size: 1.25em;
+    margin: 0 auto 0 auto;
+}
+
 h1,h2.letter-small {
   font-size: .6em;
 }
