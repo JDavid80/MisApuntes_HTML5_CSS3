@@ -1,0 +1,17 @@
+div {
+    color: darkolivegreen;
+}
+div#FuenteModerna {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
+    color: orange;
+}
+p {
+    color: blue;
+    font-size: 2em;
+}
+p.ColorCrazy {
+    color: magenta;
+    font-size: 1.5em;
+    font-style: italic;
+}

@@ -1,0 +1,15 @@
+div#main {
+    width:90%;
+    margin: 2em auto 2em auto;
+}
+div.inset {
+    width:90%;
+    margin: 2em auto 2em auto;
+}
+body {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+}
