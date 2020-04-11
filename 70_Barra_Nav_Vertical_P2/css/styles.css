@@ -1,0 +1,12 @@
+div#navbar ul {
+    list-style-type: none;
+}
+div#navbar {
+    clear:both;
+}
+div#navbar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: none;
+}
