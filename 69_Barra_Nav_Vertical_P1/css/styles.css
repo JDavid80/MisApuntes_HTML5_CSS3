@@ -1,0 +1,6 @@
+div#navbar ul {
+    list-style-type: none;
+}
+div#navbar {
+    clear:both;
+}
