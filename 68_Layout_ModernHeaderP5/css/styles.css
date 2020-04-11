@@ -1,0 +1,37 @@
+div#header {
+    width: 100%;
+    background-color: #990000;
+    left: 0;
+    top: -1%;
+    position: fixed;
+}
+div#invisible-header {
+    width: 100%;
+    visibility: hidden;
+}
+div#header h2, div#invisible-header h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+div#header img, div#invisible-header img {
+    float: left;
+    margin: .9em .6em 0 .75em;
+}
+p.clearFloat {
+    clear: both;
+}
+div#footer {
+    position:fixed;
+    bottom: 0;
+    left: 10%;
+}
+body {
+    width: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 0 auto 0 auto;
+}
