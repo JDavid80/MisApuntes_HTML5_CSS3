@@ -1,0 +1,31 @@
+div#navbar {
+    width: 100%;
+}
+div#navbar ul {
+    list-style-type: none;
+}
+div#navbar ul li {
+    text-align: center;
+    display: inline;
+    width: 19%;
+    float: left;
+    margin-right: .5em;
+}
+div#navbar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .3em;
+}
+li.changeBackground {
+    background-color: darkcyan;
+}
+li.changeBackground:hover  {
+    background-color: deepskyblue;
+}
+li.changeBackground:active {
+    background-color: midnightblue;
+}
