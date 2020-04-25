@@ -1,0 +1,13 @@
+div#main {
+    background-image: url("../images/IniciarSesion.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+body {
+        background-image: url("../images/estudiantes.jpg");
+        background-repeat: no-repeat;
+}
+
