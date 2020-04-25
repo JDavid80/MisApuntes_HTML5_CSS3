@@ -1,0 +1,16 @@
+div#main {
+    margin: 0 auto 0 auto;
+    background-color: darkcyan;
+    width: 70%;
+    height: 200px;
+}
+p {
+    padding-top: 5%;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+
+
+

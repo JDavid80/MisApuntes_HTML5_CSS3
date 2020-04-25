@@ -1,0 +1,93 @@
+p.spaced-out {
+    position: relative;
+    top: 50px;
+}
+table#adjusted {
+    position: relative;
+    bottom: 25%;
+    left: 2%;
+}
+div.normal {
+    position: static;
+}
+div#content {
+    width: 68%;
+    float: left;
+}
+div#sidebar {
+    width: 29%;
+    float: right;
+}
+div#d1
+{
+    width: 31%;
+    float: left;
+}
+div#d2
+{
+    width: 31%;
+    float: left;
+    margin: 0 0 0 3.5%;
+}
+div#d3
+{
+    width: 31%;
+    float: right;
+}
+body {
+    width: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+/*--------tables style--------*/
+table { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: darkslategray;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 2em;
+    width: 60%;
+}
+/*tr, th, td {
+    border:1px solid black;
+}*/
+th.top-row {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+th, td {
+    /*border:1px solid black;*/
+    padding: 5px;
+    /*width: 10%;*/
+    text-align: center;
+}
+th {
+    border-top: 2px solid darkcyan;
+    border-bottom: 2px solid darkcyan;
+}
+table.borders-left-right {
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+}
+.ancho-corto {
+    width: 5%;
+}
+/*Ejercicio N. 48 - Tablas - Estilos de Fuente*/
+/*th, td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: gray;
+    letter-spacing: .1em;
+}/*
+/*td {
+    vertical-align: bottom;
+}*/
+tr.even-row {
+    background-color: lightgray;
+}
