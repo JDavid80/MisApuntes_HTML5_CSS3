@@ -1,13 +1,13 @@
-div.index-a {
+div.index-a, div.index-c {
     position: fixed;
     left: 2%;
+}
+div.index-a {
     bottom: 1%;
 }
 div.index-c {
-    position: fixed;
-    left: 2%;
     top: 1%;
-}
+}   
 h2.index-b {
     z-index: -1;
 }
@@ -17,18 +17,8 @@ h2.index-d {
 h2 {
     color: black;
 }
-div#main {
-    margin: 0 auto 0 auto;
-    background-color: darkcyan;
-    width: 70%;
-    height: 200px;
-}
-p {
-   /*  padding-top: 5%; */
-    font-size: 3em;
-    text-align: center;
-    color: black;
-}
+
+
 
 
 
