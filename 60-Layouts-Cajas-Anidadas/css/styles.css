@@ -1,0 +1,19 @@
+body {
+    color:negro;
+}
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h5 {
+    color: #333333
+}
+h6 {
+    color: #26BBDC;
+    font-size: 1.5em;
+}
+h6.special {
+    color: #9FD700;
+    font-size: 2em;
+    font-family: segoe print, arial, sans-serif;
+}
