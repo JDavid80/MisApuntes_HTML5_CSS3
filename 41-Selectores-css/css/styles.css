@@ -1,0 +1,33 @@
+body {
+    color:negro;
+}
+p {
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin: 1em 2em 1em 1em;
+}
+p.important {
+    font-size: 1.8em;   
+} 
+h1 {
+    font-family:"Trebuchet", Helvetica, sans-serif;
+    text-align: center;
+} 
+h3, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1, h5 {
+    color: #333333
+}
+#fancy {
+    color: olive;
+}
+.font-yellow {
+    color: #b8860b;
+}
+
+
+
+

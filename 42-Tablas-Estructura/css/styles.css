@@ -1,0 +1,22 @@
+body {
+    color:negro;
+}
+/*--------tables style--------*/
+table { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: darkslategray;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 2em;
+    width: 60%;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+

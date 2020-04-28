@@ -1,0 +1,42 @@
+body {
+    color:negro;
+}
+h1#titulo-principal {
+    color: darkslategrey;
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 1.6em;
+    margin-bottom: .2em;
+    text-align: center;
+}
+h2#titulo-secundario {
+    color: darkcyan;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+/*--------tables style--------*/
+table { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: darkslategray;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 2em;
+    width: 60%;
+}
+th.top-row {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+th {
+    border-top: 2px solid darkcyan;
+    border-bottom: 2px solid darkcyan;
+}
+
+
+
+
