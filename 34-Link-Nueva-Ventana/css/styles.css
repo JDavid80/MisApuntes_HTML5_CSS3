@@ -1,0 +1,41 @@
+h1.letter-small {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333333;
+    padding-top: 20px;
+}
+a {
+    color: #b8860b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+  }
+  a:hover {
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  a:active {
+      font-size: 1.25em;
+  }
+  a:visited {
+      color: yellowgreen;
+  }
+  a.special:hover {
+      color:blue;
+      font-size: 2em;
+  }
+  a.special:visited {
+      color: red;
+  }
+  a.special:active {
+      color: lime;
+  }
+  #openWindow {
+     cursor: pointer;  
+     font-size: 2em;
+  }
+  p {
+      color: darkcyan;
+      font-size: 1.8em;
+  }
+

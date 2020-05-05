@@ -1,0 +1,10 @@
+div#main {
+    font-size: 1.1em;
+    margin: 1em 1em 1em 1em;
+    color: darkcyan;
+}
+div.special {
+    margin: 1 em 5em 1em 5em;
+    color: firebrick;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

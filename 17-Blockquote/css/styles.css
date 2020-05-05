@@ -1,0 +1,13 @@
+h1, p {
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+h1 {
+    text-align: center;
+}
+blockquote {
+    margin: 2em, 2em, 1em, 7em;
+    border-left: solid 4px dimgray;
+    text-align: justify;
+}

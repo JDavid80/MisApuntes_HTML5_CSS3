@@ -1,0 +1,8 @@
+body {
+    color: dodgerblue;
+    font-size: 1.7em;
+}
+p.noheredado {
+    color: darkgreen;
+    font-size: 0.8em;
+}

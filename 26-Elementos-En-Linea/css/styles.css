@@ -1,0 +1,12 @@
+
+img.en-bloque {
+    display: block;
+    margin-bottom: .2em;
+}
+h1 {
+    text-align: center;
+    color: darkcyan;
+}
+h1.letter-small, h2.letter-small {
+   font-size: 1.5em;
+} 

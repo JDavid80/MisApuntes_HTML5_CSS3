@@ -1,0 +1,21 @@
+h1.letter-small {
+    font-size: 1.5em;
+    text-align: center;
+  }
+img.floating-left {
+    float: left;
+}
+img.floating-right {
+    float: right;
+    margin: .5em;
+}
+p
+{
+    font-size: 1.5em;
+}
+p.Size1 {
+    color: darkcyan;
+}
+p.no-wrap {
+    clear: both;
+}

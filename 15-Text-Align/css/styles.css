@@ -1,0 +1,20 @@
+h1, p {
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+p.izquierda {
+    text-align: left;
+}
+p.derecha {
+    text-align: right;
+}
+p.justificado {
+    text-align: justify;
+}

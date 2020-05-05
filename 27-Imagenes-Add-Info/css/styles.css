@@ -1,0 +1,7 @@
+h1.letter-small, h2.letter-small {
+    font-size: 1.5em;
+    color: darkcyan;
+ }
+ h1.letter-small {
+    text-align: center;
+ }

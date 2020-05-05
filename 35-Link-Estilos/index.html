@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Link-Estilos</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div class="content">
+            <h1 class="letter-small">Link-Estilos</h1>
+            <a href="https://www.campusmvp.es" target="_blank">
+                Cursos CampusMVP</a><br>
+            <a class="special" href="https://www.campusmvp.es" 
+                target="_blank">Cursos CampusMVP</a><br>
+            <a class="special" href="https://www.campusmvp.es" 
+                target="_blank">Cursos CampusMVP</a>
+            <p id="openWindow">Platzi nueva ventana pequeña</p>
+            <script>
+                document.getElementById("openWindow").onclick = openWindow;
+                function openWindow() {
+                    var w = window.open("http://www.platzi.com", "",
+                    width=200, height=300, left=300, top=400);
+                }
+            </script>
+        </div>
+    </body>
+</html>
