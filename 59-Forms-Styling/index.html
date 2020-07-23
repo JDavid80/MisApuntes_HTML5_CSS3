@@ -8,35 +8,56 @@
         <h1 class="titulo-principal">Forms - Styling</h1>
         <form action="RegistrarUsuario.php" method="post">
             <fieldset>
+            <fieldset>
             <legend>Datos Básicos</legend>
-            Nombres:
-            <input type="text" name="Nombres"
+            <label>Nombres</label>
+            <input type="text" name="Nombres" placeholder="Ingrese su(s) nombre(s)"
             size="22" maxlength="30">
-            Apellidos:
-            <input tyep="text" name="Apellidos"
+            <label>Apellidos</label>
+            <input type="text" name="Apellidos" placeholder="Ingrese su(s) apellido(s)"
             size="22" maxlength="30">
-            <br><br>
-            Correo Electrónico
-            <input type="text" name="Email"
+            <label>Correo Electrónico</label>
+            <input type="text" name="Email" placeholder="Ingrese su correo electrónico"
             size="22" maxlength="30">
             </fieldset>
             <br>
             <fieldset>
             <legend>Datos Mantenimiento</legend>
-            Observaciones<br>
+            <label>Observaciones</label>
             <textarea name="observaciones" rows="5"
             cols="25" maxlength="200"></textarea><br><br>
-            Revisión Rutinaria<br>
+            <label>Revisión Rutinaria</label>
             <label><input type="checkbox" value="CambioAceite">
             Cambio de Aceite</label>
             <label><input type="checkbox" value="Cadena">
             Revisión de Cadena</label>
             <label><input type="checkbox" value="Frenos">
-            Revisión de Frenos</label>
+            Revisión de Frenos</label><br>
+            <label>Cilindraje</label>
+            <label><input type="radio" name="cilindraje"
+            value="hasta_100">Hasta 100 C.C.
+            </label>
+            <label><input type="radio" name="cilindraje" 
+            value="De101_150">De 101 a 150 C.C.
+            </label>
+            <label><input type="radio" name="cilindraje" 
+            value="De151_200">De 151 a 200 C.C.
+            </label>
+            <label><input type="radio" name="cilindraje"
+            value="Masde200">Mas de 200 C.C.
+            </label>
+            <br>
+            <label>Marca</label>
+            <select name="Marca">
+                <option value="Yamaha"><label>Yamaha</label></option>
+                <option value="Honda"><label>Honda</label></option>
+                <option value="Kawasaki"><label>Kawasaki-</label></option>
+            </select>
             </fieldset>
             <br>
             <input type="image" src="images/Boton_Enviar.png" 
             alt="Enviar" width="200" height="42">
+        </fieldset>
         </form>
     </body>
 </html>
