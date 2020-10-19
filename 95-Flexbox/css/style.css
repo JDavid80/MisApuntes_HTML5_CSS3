@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+div.container-flex {
+    width: 500px;
+    height: 300px;
+    background: skyblue;
+    margin: auto;
+    /* FLEXBOX */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.item-flex {
+    background-color: darkcyan;
+}

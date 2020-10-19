@@ -10,6 +10,15 @@ p {
     text-align: center;
     color: white;
 }
+img {
+    width: 100%;
+}
+.prueba1 {
+    font-size: 16px;
+}
+.prueba2 {
+    font-size: 1em;
+}
 
 
 

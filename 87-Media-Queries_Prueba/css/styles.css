@@ -1,0 +1,27 @@
+div#main {
+    width: 100%;
+}
+.content-image {
+    width: 30%;
+    display: block;
+    margin: 0 auto 0 auto;
+    background-color: aquamarine;
+}
+img.gallery {
+    display: block;
+    margin: 0 auto 0 auto;
+    
+}
+@media only screen and (min-width:
+320px) and (max-width: 600px) {
+    img.gallery {
+        display: block;
+        margin-bottom: 0.2em;
+    }
+}
+@media only screen and (min-width:
+601px) {
+    img.gallery { 
+        display: inline;
+    }
+}

@@ -6,7 +6,6 @@ div#navbar ul {
 }
 div#navbar ul li {
     text-align: center;
-    display: inline;
     width: 19%;
     float: left;
     margin-right: .5em;
