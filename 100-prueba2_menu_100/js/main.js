@@ -20,12 +20,12 @@ function main() {
     $('.submenu').click(function() {
         $(this).children('.children').slideToggle();
     });
-    $('.children').hover(function() {
+/*     $('.children').hover(function() {
         var submenu = document.getElementById("id-sub");
-        submenu.style.color = "white";
-    })
-    $('.children').hover(function() {
-        var submenu = document.getElementById("id-sub");
-        submenu.style.color = "white";
-    })
+        submenu.style.color = "white"; */
+/*     }) */
 }
+/* function colorRojo() {
+    var submenu = document.getElementById("id-sub");
+    submenu.style.color = "red";
+} */

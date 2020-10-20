@@ -1,4 +1,4 @@
-* {
+ * {
     padding: 0;
     margin: 0;
 }
@@ -36,11 +36,11 @@ header nav ul li {
     position: relative;
 }
 header nav ul li:hover {
-    background: rgb(191,0,6);
-    color: white;
+    /* background: rgb(191,0,6); */
+    /* color: white; */
 }
 header nav ul li a {
-    color: white;
+    color:white;
     display: block;
     text-decoration: none;
     padding: 20px;
@@ -107,6 +107,7 @@ header nav ul li .icon-chevron-small-down {
         float: right;
         font-size: 40px;
     }
+    /*  */
     header nav {
         width: 80%;
         height: calc(100% - 80px);
@@ -120,11 +121,13 @@ header nav ul li .icon-chevron-small-down {
         padding: 12px;
         display: block;
         text-align: left;
-        color:  rgb(222,1,8);
+        color:  black;
     }
     header nav ul li a:hover {
         padding: 12px;
-        color: white;
+        background: white;
+        color: black;
+        /* color: white; */
     }
     header nav ul li {
         display: block;
@@ -134,7 +137,7 @@ header nav ul li .icon-chevron-small-down {
         width: 100%;
         position: relative;
         background: white;
-        color: white;
+        color: black;
     }
     header nav ul li .children li a {
         margin-left: 20px;
