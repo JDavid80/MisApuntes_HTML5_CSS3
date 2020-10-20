@@ -136,7 +136,7 @@ header nav ul li .icon-chevron-small-down {
     header nav ul li .children {
         width: 100%;
         position: relative;
-        background: white;
+        background: lightgray;
         color: black;
     }
     header nav ul li .children li a {
