@@ -35,10 +35,10 @@ header nav ul li {
     display: inline-blocK;
     position: relative;
 }
-header nav ul li:hover {
-    /* background: rgb(191,0,6); */
-    /* color: white; */
-}
+/* header nav ul li:hover {
+    background: rgb(191,0,6); 
+    color: white; 
+} */
 header nav ul li a {
     color:white;
     display: block;
@@ -58,6 +58,8 @@ header nav ul li .children {
     display: none;
     background: #011826;
     position: absolute;
+    width: 150%;
+    text-align: left;
 }
 header nav ul li .children li {
     display: block;
