@@ -48,12 +48,12 @@ header nav ul li a {
 header nav ul li a span {
     margin-right: 10px;
 }
-header nav ul li:hover .children {
+/* header nav ul li:hover .children {
     display: block;
     width: 150%;
     z-index: 20;
     text-align: left;
-}
+} */
 header nav ul li .children {
     display: none;
     background: #011826;
@@ -79,6 +79,12 @@ header nav ul li .icon-chevron-small-down {
     top: 3px;
     margin-left: 10px;
     margin-right: 0;
+}
+.main-content {
+    margin: 20px;
+}
+.main-content p {
+    text-align: justify;
 }
 @media screen and (max-width: 830px) {
     body {
@@ -136,7 +142,7 @@ header nav ul li .icon-chevron-small-down {
     header nav ul li .children {
         width: 100%;
         position: relative;
-        background: lightgray;
+        background:rgb(230,230,230);
         color: black;
     }
     header nav ul li .children li a {
